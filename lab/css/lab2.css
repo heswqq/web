@@ -1,0 +1,15 @@
+li:first-child {
+    font-weight: bold;
+}
+a:last-child {
+    color: red;
+}
+input:disabled {
+    background-color: gray;
+}
+div>p {
+    font-weight: 600;
+}
+a[href^="https"] {
+    color: green;
+}
