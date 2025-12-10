@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Plan Grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/lab4.css">
+</head>
+
+<body>
+
+    <div class="planner-outer-frame">
+        <div class="planner-container">
+            <header class="planner-header">
+                <h1 class="main-title">WEEKLY PLAN</h1>
+
+                <div class="header-inputs">
+                    <div class="input-group">
+                        <label for="week-of">WEEK OF</label>
+                        <input type="text" id="week-of" class="line-input">
+                    </div>
+                    <div class="input-group" style="flex-grow: 2;">
+                        <label for="healthy-habit">HEALTHY HABIT</label>
+                        <input type="text" id="healthy-habit" class="line-input">
+                    </div>
+                </div>
+
+                <div class="header-status">
+                    <div class="status-item">
+                        <span>ROCKED IT</span>
+                        <input type="checkbox">
+                    </div>
+                    <div class="status-item">
+                        <span>ROOM FOR IMPROVEMENT</span>
+                        <input type="checkbox">
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content-grid">
+
+                <aside class="sidebar">
+                    <h2 class="sidebar-title">TO DO</h2>
+
+                    <section class="sidebar-section">
+                        <h3>TOP 3 GOALS</h3>
+                        <ul>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                        </ul>
+                    </section>
+
+                    <section class="sidebar-section">
+                        <h3>EVERYTHING ELSE</h3>
+                        <ul>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                        </ul>
+                    </section>
+
+                    <section class="sidebar-section">
+                        <h3>NEXT WEEK</h3>
+                        <ul>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                            <li><input type="checkbox"><input type="text" class="line-input"></li>
+                        </ul>
+                    </section>
+                </aside>
+
+                <div class="days-grid">
+                    <div class="day-box">
+                        <div class="day-header header-triangle">MONDAY <input type="checkbox" class="day-check"></div>
+                        <textarea class="day-input"></textarea>
+                    </div>
+                    <div class="day-box">
+                        <div class="day-header header-triangle">TUESDAY <input type="checkbox" class="day-check"></div>
+                        <textarea class="day-input"></textarea>
+                    </div>
+                    <div class="day-box">
+                        <div class="day-header header-triangle">WEDNESDAY <input type="checkbox" class="day-check">
+                        </div>
+                        <textarea class="day-input"></textarea>
+                    </div>
+
+                    <div class="day-box">
+                        <div class="day-header header-triangle">THURSDAY <input type="checkbox" class="day-check"></div>
+                        <textarea class="day-input"></textarea>
+                    </div>
+                    <div class="day-box">
+                        <div class="day-header header-triangle">FRIDAY <input type="checkbox" class="day-check"></div>
+                        <textarea class="day-input"></textarea>
+                    </div>
+
+                    <div class="weekend-split">
+                        <div class="day-box weekend-top">
+                            <div class="day-header header-triangle">SATURDAY <input type="checkbox" class="day-check">
+                            </div>
+                            <textarea class="day-input"></textarea>
+                        </div>
+                        <div class="day-box weekend-bottom">
+                            <div class="day-header">SUNDAY <input type="checkbox" class="day-check"></div>
+                            <textarea class="day-input"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>
