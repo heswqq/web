@@ -1,30 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practical</title>
+    <title>Навчальні роботи</title>
+    <style>
+        /* Стилі для гарного вигляду сторінки */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        /* Контейнер для двох колонок */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        /* Стиль блоків (Лабораторні та Практичні) */
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 320px;
+            /* Щоб на телефоні не стискалось */
+        }
+
+        .card h2 {
+            font-size: 2rem;
+            color: #444;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        /* Стиль посилань */
+        a {
+            display: block;
+            text-decoration: none;
+            background-color: #e9ecef;
+            color: #007bff;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+
+        a:hover {
+            background-color: #007bff;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
+        }
+
+        /* Стиль для закоментованих (майбутніх) робіт, якщо ви їх розкоментуєте, але ще не створили файл */
+        a.disabled {
+            background-color: #f8f9fa;
+            color: #adb5bd;
+            pointer-events: none;
+            border-color: #f8f9fa;
+        }
+    </style>
 </head>
+
 <body>
-    <h1 style="font-size: 60px;">Практичні роботи</h1>
-    <ul style="font-size: 40px;">
-        <li><a href="practical/practical1.html">Практична робота №1</a></li>
-        <li><a href="practical/practical2.html">Практична робота №2</a></li>
-        <li><a href="practical/practical4.html">Практична робота №4</a></li>
-    <!-- <li><a href="practical4.html">Практична робота №4</a></li>
-        <li><a href="practical5.html">Практична робота №5</a></li>
-        <li><a href="practical6.html">Практична робота №6</a></li>
-        <li><a href="practical7.html">Практична робота №7</a></li>
-        <li><a href="practical8.html">Практична робота №8</a></li>
-        <li><a href="practical9.html">Практична робота №9</a></li>
-        <li><a href="practical10.html">Практична робота №10</a></li>
-        <li><a href="practical11.html">Практична робота №11</a></li>
-        <li><a href="practical12.html">Практична робота №12</a></li>
-        <li><a href="practical13.html">Практична робота №13</a></li>
-        <li><a href="practical14.html">Практична робота №14</a></li>
-        <li><a href="practical15.html">Практична робота №15</a></li>-->
-    </ul>
-    
-    
+
+    <h1>Мої навчальні роботи</h1>
+
+    <div class="container">
+
+        
+
+        <div class="card">
+            <h2>📝 Практичні</h2>
+            <ul>
+                <li><a href="practical/practical1.html">Практична робота №1</a></li>
+                <li><a href="practical/practical2.html">Практична робота №2</a></li>
+                <li><a href="practical/practical4.html">Практична робота №4</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
 </body>
+
 </html>

@@ -1,19 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lab</title>
-</head>
-<body>
-    <h1 style="font-size: 60px;">Лабарарторні роботи</h1>
-    <ul style="font-size: 40px;">
-        <li><a href="lab/lab1.html">Лабарарторна робота №1</a></li>
-        <li><a href="lab/lab2.html">Лабарарторна робота №2</a></li>
-        <li><a href="lab/lab3.html">Лабарарторна робота №3</a></li>
-        <li><a href="lab/lab4.html">Лабарарторна робота №4</a></li>
+    <title>Мої роботи</title>
+    <style>
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
             
-            <!--<li><a href="lab/lab4.html">Лабарарторна робота №4</a></li>-->
-    
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        /* Стиль для кожної секції (Лабораторні/Практичні) */
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1;
+           
+            min-width: 300px;
+            
+        }
+
+        
+        .section h2 {
+            font-size: 1.8rem;
+            color: #34495e;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        
+        ul {
+            list-style-type: none;
+           
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        
+        a {
+            display: block;
+            text-decoration: none;
+            background-color: #e8f6f3;
+            color: #2980b9;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            text-align: center;
+            border: 1px solid #d4e6f1;
+        }
+
+        a:hover {
+            background-color: #3498db;
+            color: white;
+            transform: translateY(-2px);
+            
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        
+        .back-btn {
+            margin-top: 40px;
+            color: #7f8c8d;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .back-btn:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Навчальні матеріали</h1>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>🧪 Лабораторні роботи</h2>
+            <ul>
+                <li><a href="lab/lab1.html">Лабораторна робота №1</a></li>
+                <li><a href="lab/lab2.html">Лабораторна робота №2</a></li>
+                <li><a href="lab/lab3.html">Лабораторна робота №3</a></li>
+                <li><a href="lab/lab4.html">Лабораторна робота №4</a></li>
+            </ul>
+        </div>
+
+        
+
+    </div>
+
+    <a href="../index.html" class="back-btn">← Повернутися на головну</a>
+
 </body>
+
 </html>
