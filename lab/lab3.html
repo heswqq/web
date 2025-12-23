@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lab3.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <button class="icon-btn menu-btn">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                    <g>
+                        <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+                    </g>
+                </svg>
+            </button>
+            <a href="#" class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+                <span class="country-code">UA</span>
+            </a>
+        </div>
+
+        <div class="header-center">
+            <div class="search-box">
+                <input type="text" placeholder="Пошук">
+                <button class="search-btn">
+                    <svg viewBox="0 0 24 24" class="search-icon">
+                        <path
+                            d="M20.87 20.17l-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <button class="voice-search icon-btn">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z"></path>
+                    <path
+                        d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z">
+                    </path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="header-right">
+            <button class="icon-btn create-btn"><span>+</span> Створити</button>
+            <button class="icon-btn notification-btn">🔔</button>
+            <div class="user-avatar">J</div>
+        </div>
+    </header>
+
+    <div class="main-container">
+
+        <aside class="sidebar">
+            <div class="nav-section">
+                <div class="nav-item active">
+                    <span class="icon">🏠</span> <span>Головна</span>
+                </div>
+                <div class="nav-item">
+                    <span class="icon">⚡</span> <span>Shorts</span>
+                </div>
+                <div class="nav-item">
+                    <span class="icon">📺</span> <span>Підписки</span>
+                </div>
+            </div>
+            <hr>
+            <div class="nav-section">
+                <div class="nav-title">Ви &nbsp; 〉</div>
+                <div class="nav-item">
+                    <span class="icon">🕒</span> <span>Історія</span>
+                </div>
+                <div class="nav-item">
+                    <span class="icon">🎼</span> <span>Списки відтворен...</span>
+                </div>
+                <div class="nav-item">
+                    <span class="icon">⏱️</span> <span>Переглянути піз...</span>
+                </div>
+                <div class="nav-item">
+                    <span class="icon">👍</span> <span>Відео, які сподоб...</span>
+                </div>
+            </div>
+            <hr>
+            <div class="nav-section">
+                <div class="nav-title">Підписки</div>
+                <div class="nav-item">
+                    <div class="channel-img small" style="background: purple"></div> <span>MusicVibes</span>
+                </div>
+                <div class="nav-item">
+                    <div class="channel-img small" style="background: orange"></div> <span>Lofi Girl</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="chips-wrapper">
+                <div class="chip active">Усі</div>
+                <div class="chip">Музика</div>
+                <div class="chip">Ігри</div>
+                <div class="chip">Мікси</div>
+                <div class="chip">Новини</div>
+                <div class="chip">Пряма трансляція</div>
+                <div class="chip">Реп</div>
+                <div class="chip">Нещодавно завантажені</div>
+                <div class="chip">Ви дивилися</div>
+                <div class="chip">Новинки для вас</div>
+            </div>
+
+            <div class="video-grid">
+
+                <article class="video-card">
+                    <div class="thumbnail-container">
+                        <img src=""
+                            class="thumbnail">
+                        <span class="duration">3:00:00</span>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar" style="background-color: #555;"></div>
+                        <div class="video-meta">
+                            <h3 class="video-title">it's okay, calm down.</h3>
+                            <div class="channel-name">patient</div>
+                            <div class="video-stats">1,6 млн переглядів • 9 місяців тому</div>
+                        </div>
+                        <button class="options-btn">⋮</button>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail-container">
+                        <img src=""
+                            class="thumbnail">
+                        <span class="duration">53:08</span>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar" style="background-color: #b31217;"></div>
+                        <div class="video-meta">
+                            <h3 class="video-title">Chase Atlantic Playlist Mix 1 hour - Come Ride With Me</h3>
+                            <div class="channel-name">MusicVibes</div>
+                            <div class="video-stats">77 тис. переглядів • 3 тижні тому</div>
+                        </div>
+                        <button class="options-btn">⋮</button>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail-container">
+                        <img src=""
+                            class="thumbnail">
+                        <span class="duration">58:28</span>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar" style="background-color: #1a237e;"></div>
+                        <div class="video-meta">
+                            <h3 class="video-title">Late Night Feels Playlist (pt.5) | Drake, SZA, Chris Brown</h3>
+                            <div class="channel-name">ThaiGuy</div>
+                            <div class="video-stats">2,2 млн переглядів • 8 місяців тому</div>
+                        </div>
+                        <button class="options-btn">⋮</button>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail-container">
+                        <img src=""
+                            class="thumbnail">
+                        <span class="duration">43:39</span>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar" style="background-color: #333;"></div>
+                        <div class="video-meta">
+                            <h3 class="video-title">Chase Atlantic Late Night Drive Songs</h3>
+                            <div class="channel-name">unaccept</div>
+                            <div class="video-stats">132 тис. переглядів • 1 місяць тому</div>
+                        </div>
+                        <button class="options-btn">⋮</button>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="thumbnail-container">
+                        <img src=""
+                            class="thumbnail">
+                        <span class="duration">3:08:14</span>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar" style="background-color: #ff6f00;"></div>
+                        <div class="video-meta">
+                            <h3 class="video-title">Warm Fireplace Ambience 2025 | Snow Christmas Night</h3>
+                            <div class="channel-name">Fireplace Dreams</div>
+                            <div class="video-stats">3,8 млн переглядів • 1 місяць тому</div>
+                        </div>
+                        <button class="options-btn">⋮</button>
+                    </div>
+                </article>
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
